@@ -16,3 +16,11 @@ $soma = $valor1 + $valor2 + $valor3 + $valor4;
 $media = $soma/4;
 
 print "\n $media é a média final!";
+
+if($media>=7){
+    print "\nAprovado";
+}elseif($media >=5){
+        print"\nExame!";
+    }else{
+        print"\nReprovado";
+    };
